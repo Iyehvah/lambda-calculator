@@ -17,7 +17,7 @@ const Operators = () => {
        {operator.map( operators => {
          return(
            <OperatorButton key={operators}
-              operators={operators}/>
+              operators={operators}></OperatorButton>
          );
        })}
     </div>
