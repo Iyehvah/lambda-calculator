@@ -13,10 +13,10 @@ const Specials = () => {
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
-       {special.map((specials, index) => {
+       {special.map(specials => {
          return(
            <SpecialButton
-            specials={specials} key={index}
+            specials={specials}
            />
            );
        })}
@@ -25,11 +25,3 @@ const Specials = () => {
 };
 
 export default Specials;
-
-// {operator.map( (operators, index) => {
-//   return(
-//     <OperatorButton
-//        operators={operators} key={index}
-//     />
-//   );
-// })}

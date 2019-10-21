@@ -9,7 +9,6 @@ import {numbers, operators, specials} from './data';
 
 // Don't forget to import any extra css/scss files you build into the correct component
 import "./App.css";
-
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
 
